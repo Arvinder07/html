@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 50px;
+  margin: 0;
+  color: #682c0e;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 0;
+  color: #682c0e;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+  color: #5aa469;
+}
+
+.nav-bar {
+  margin-bottom: 45px;
+  position: relative;
+  padding: 39px 0;
+  margin-right: 320px;
+}
+.nav-img{
+  position:absolute;
+  left:400px;
+  top:10px;
+  cursor: pointer;
+
+}
+
+.nav-links {
+  margin: 5px 10px;
+  text-decoration: none;
+  color: #393e46;
+  font-family: 'Open Sans', sans-serif;
+  float: right;
+
+}
+
+.nav-links:hover {
+  color: #682c0e;
+  font-weight: bolder;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.container {
+  background-color: #fcf8ec;
+  text-align: center;
+  position: relative;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 130px;
+  left: 850px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+}
+
+.mid-container {
+  background-color: #d0e8f2;
+  text-align: center;
+  padding: 70px;
+}
+
+.profile {
+  width: 30%;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.pro-img {
+  height: 120px;
+  width: 120px;
+}
+
+hr {
+  border-style: dotted;
+  width: 2%;
+  border-color: #79a3b1;
+  border-width: 10px;
+  border-bottom: 0;
+  margin: 50px auto;
+}
+
+.heading {
+  font-size: 60px;
+}
+
+.img-1 {
+  float: left;
+  height: 200px;
+  width: 200px;
+  margin-right: 25px;
+}
+
+.img-2 {
+  float: right;
+  height: 200px;
+  width: 200px;
+  margin-left: 25px;
+}
+
+.what-do {
+  width: 50%;
+  margin: 0 auto 0 auto;
+  text-align: left;
+  line-height: 2;
+  padding: 40px;
+}
+
+.describe {
+  color: #393e46;
+}
+
+.help {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#freelance {
+  color: #03506f;
+  line-height: 2;
+}
+
+.describe2 {
+  margin-bottom: 50px;
+  line-height: 2;
+}
+
+.button {
+  background-color: #5aa469;
+  text-decoration: none;
+  padding: 20px 50px;
+  color: #393e46;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  transition-duration: 0.5s;
+  border-radius: 8px;
+}
+
+.button:hover {
+  background-color: #393e46;
+  color: white;
+}
+
+.bottom-container {
+  background-color: #79a3b1;
+  text-align: center;
+  padding: 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.links {
+  text-decoration: none;
+  color: #393e46;
+  margin: 40px;
+}
+
+.links:hover {
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.copyright {
+  line-height: 5;
+  font-size: 12px;
+  color: white;
+}
